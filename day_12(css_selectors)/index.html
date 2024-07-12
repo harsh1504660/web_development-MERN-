@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day-12 css selectors</title>
+    <style>
+        /* universal selector*/
+        *{
+            margin: 25px;
+        }
+       /*class selector*/ 
+     .red{
+        background-color: red;
+        
+     }
+     /*id selector*/
+     #green{
+        background-color: green;
+     }
+     /*descendant selector*/
+     div > p {
+        color:blue;
+        background-color: brown ;
+     }
+     /*pseudo selector*/
+     a:visited{
+        color: yellow;
+     }
+     a:link{
+        color: green;
+     }
+  a:active{
+    background-color:black;
+  }
+a:hover{
+    background-color: blue;
+}
+    </style>
+</head>
+<body>
+    <div>
+        i am element selector
+    </div>
+    <div class="red">
+        i am class selector 
+    </div>
+     <div id="green">
+        i am id selector
+        <p> this is paragraph  </p>
+     </div>
+<a href="https://www.google.com">go to google</a>
+<a href="https://www.facebook2.com">go to facebook</a>
+</body>
+</html>
