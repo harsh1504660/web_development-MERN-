@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day-20 position property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 133px;
+            width: 80vw;
+            padding: 3px;
+            margin: 4px;
+            border: 2px solid black;
+        }
+        .box1{
+            background-color: aqua;
+            position:relative;
+            top: 0px;
+        }
+        .box2{background-color: rgb(233, 229, 0);
+        position: relative;}
+        .box3{background-color: rgb(139, 18, 18);}
+        .box4{background-color: rgb(83, 122, 20);}
+        .parent{
+            padding: 3px;
+            margin: 34px;
+            border: 2px solid black;
+            position: sticky;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box"></div>
+</div>
+</body>
+</html>
