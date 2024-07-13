@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day-27 transforms</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;    
+            background-color: beige;
+            border: 2px solid black;
+            /*transform: rotate(40deg);*/
+           /* transform: rotateX(40deg);*/
+           /*transform: scale(1.6);*/
+           transform: translate(34px) skew(40deg);
+            justify-content: center ;
+            display: flex;
+            align-items: center;
+        }
+        .container{
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
