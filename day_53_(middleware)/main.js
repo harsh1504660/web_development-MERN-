@@ -3,6 +3,7 @@ const app = express()
 const port = 3000
 const fs = require("fs")
 
+// middleware ---> modify the request first then passed to the endpoint
 
 app.use(express.static('public'))    // middle ware deafult
 
