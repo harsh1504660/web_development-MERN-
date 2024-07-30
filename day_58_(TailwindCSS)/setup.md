@@ -4,7 +4,7 @@ step 1 : Run the following commands
 
 ```
 npm install -D tailwindcss
-npx tailwinfcss init
+npx tailwindcss init
 ```
 
 Step 2: Update tailwind.conf.js file to include this file line:
