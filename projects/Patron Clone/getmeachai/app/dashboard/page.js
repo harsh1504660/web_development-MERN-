@@ -1,8 +1,9 @@
 "use client"
 import React from 'react'
 import { useRouter } from 'next/navigation'
+import Dashboard from '@/components/Dahboard'
 import { useSession,signIn , signOut } from 'next-auth/react'
-const Dashboard = () => {
+const Dashboardpage = () => {
     const {data:session} = useSession()
     if (!session){
         const router = useRouter()
@@ -10,9 +11,10 @@ const Dashboard = () => {
     }
   return (
     <div>
-      dashboard
+      
+      <Dashboard/>
     </div>
   )
 }
 
-export default Dashboard
+export default Dashboardpage

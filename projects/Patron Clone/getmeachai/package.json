@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.6.2",
     "next": "14.2.9",
     "next-auth": "^4.24.7",
+    "razorpay": "^2.9.4",
     "react": "^18",
     "react-dom": "^18"
   },
